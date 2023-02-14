@@ -15,6 +15,7 @@
 /* sidermenu */
 #sidemenu{
     position: fixed;
+    left:-200px;
     background-color: rgba(0, 0, 0, 1);
 }
 
