@@ -280,3 +280,6 @@ main{
     margin-right: 0.5rem;
 }
 
+.playericon i{
+    display: none;
+}
