@@ -224,6 +224,7 @@ main{
     display: inline-block;
 }
 
+
 .playericon i{
     margin-left:1rem;
     font-size: 1.2rem;
@@ -237,12 +238,21 @@ main{
     font-size: 0.7rem;
 }
 
+.div2{
+    flex-grow: 2;
+}
+.buttons{
+    display: block;
+    width: 10rem;
+    margin:auto
+}
+
 .buttons i{
     margin: 0rem 0.8rem 0.8rem 0.8rem;
     font-size: 1.2rem;
    
 }
-.buttons i:nth-child(3){
+.buttons i:nth-child(2){
     font-size: 1.7rem;
 }
 
@@ -282,4 +292,9 @@ main{
 
 .playericon i{
     display: none;
+}
+
+.albumimg{
+    opacity: 0;
+
 }
