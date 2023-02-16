@@ -82,7 +82,8 @@
 
 
 .buttons{
-    margin-right: 1rem;
+    width: 5.5rem;
+    
 }
 
 .buttons i{
@@ -91,14 +92,10 @@
 
    
 }
-.buttons i:nth-child(3){
+.buttons i:nth-child(2){
     font-size: 1rem;
 }
 
-.buttons i:nth-child(1),.buttons i:nth-child(5){
-   display: none;
-   
- }
 
 .songs{
     grid-template-columns: repeat(auto-fit,minmax(96px,1fr));
